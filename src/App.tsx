@@ -680,7 +680,7 @@ const Navbar = () => {
             {['About', 'Skills', 'Projects', 'Experience', 'Contact', 'Resume'].map((item) => (
               <a 
                 key={item} 
-                href={item === 'Resume' ? "https://drive.google.com/file/d/1gnb5f6TlAX9X1PM3i5DqQ4u52HnDv0Go/view?usp=sharing" : `#${item.toLowerCase()}`}
+                href={item === 'Resume' ? "https://drive.google.com/file/d/1Nxtt92GPm9XxXw4JeipwHK0Zku2i5tsn/view?usp=sharing" : `#${item.toLowerCase()}`}
                 target={item === 'Resume' ? "_blank" : undefined}
                 rel={item === 'Resume' ? "noopener noreferrer" : undefined}
                 className={cn(
